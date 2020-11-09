@@ -46,6 +46,18 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate("Controller");
         }}
       />
+      <Button
+        title="Go to text controller"
+        onPress={() => {
+          navigation.navigate("Text");
+        }}
+      />
+      <Button
+        title="Go to box screen"
+        onPress={() => {
+          navigation.navigate("BoxScreen");
+        }}
+      />
       {/* <TouchableOpacity
         onPress={() => {
           props.navigation.navigate("List");
